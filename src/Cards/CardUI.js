@@ -13,8 +13,8 @@ const Card = props => {
 
         <div className='card-body text-dark'>
           <h4 className='card-title'>{props.product.title}</h4>
-          <p className='card-text text-secondary'>Lorem Ipsum</p>
-          <a href='#' className='btn btn-outline-success'>Go Anywhere</a>
+          <p className='card-text text-secondary'>{props.product.price}</p>
+          <a href='#' className='btn btn-outline-success'>Choose Plan</a>
         </div>
 
       </div>
